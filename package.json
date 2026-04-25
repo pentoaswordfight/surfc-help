@@ -1,0 +1,15 @@
+{
+  "name": "surfc-help",
+  "version": "0.1.0",
+  "private": true,
+  "description": "User-facing help site for Surfc — published at help.surfc.app via Cloudflare Pages.",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4"
+  }
+}
